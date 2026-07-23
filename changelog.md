@@ -27,6 +27,7 @@
 - Move SWEK event indexing, highlight dispatch, and supplier configuration into clearer event-cache/catalog code
 - Disable COMESEP event source
 - Improve layer-table update/repaint behavior when layer names or metadata change
+- Recover from a stalled playback frame: scan past a frame whose data never arrives, or pause and report it, instead of freezing the playhead (by @GillySpace27)
 
 ### Performance and data
 - Offload viewpoint orbit trail and PFSS coordinate preparation from the rendering thread
